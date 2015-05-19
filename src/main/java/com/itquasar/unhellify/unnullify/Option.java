@@ -1,5 +1,7 @@
 package com.itquasar.unhellify.unnullify;
 
+import edu.umd.cs.findbugs.annotations.SuppressFBWarnings;
+
 /**
  * Class to allow return no value without using null. This class has 2
  * subclasses: {@link Some} ans {@link None}.
@@ -30,6 +32,7 @@ public abstract class Option<T> {
      * Note that constant {@link #None} has the same name as the class of this
      * object: {@link None}.
      */
+    @SuppressWarnings("checkstyle:constantname")
     public static final None None = new None();
 
     /**
@@ -39,6 +42,11 @@ public abstract class Option<T> {
      * @param v Value of this {@link Option}. Must be not <code>null</code>.
      * @return {@link Some} instance of given type.
      */
+    @SuppressFBWarnings(
+            value = {"NM_METHOD_NAMING_CONVENTION"},
+            justification = "Make a more fluid API"
+    )
+    @SuppressWarnings("checkstyle:methodname")
     public static <T> Some<T> Some(T v) {
         return new Some<>(v);
     }

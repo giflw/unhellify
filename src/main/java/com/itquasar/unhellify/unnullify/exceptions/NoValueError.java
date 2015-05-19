@@ -10,12 +10,14 @@ package com.itquasar.unhellify.unnullify.exceptions;
  */
 public class NoValueError extends Error {
 
+    @SuppressWarnings("checkstyle:javadocvariable")
     private static final long serialVersionUID = 1L;
 
     /**
      *
      * @param message Human readable message describing the error.
      */
+    @SuppressWarnings("checkstyle:finalparameters")
     public NoValueError(String message) {
         super(message);
     }

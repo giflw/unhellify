@@ -9,5 +9,8 @@
  * Any class that extends {@code Exception} must be caught or throwned again, as
  * they represent errors that <strong>MUST</strong> be handled outside the
  * library by contratct.
+ *
+ * @author Guilherme I F L Weizenmann
+ * @since 0.1.0
  */
 package com.itquasar.unhellify.unnullify.exceptions;
