@@ -1,9 +1,9 @@
 package com.itquasar.unhellify.unnullify;
 
-import com.itquasar.unhellify.unnullify.exceptions.NullValueError;
-import com.itquasar.unhellify.unnullify.exceptions.NoValueError;
 import static com.itquasar.unhellify.unnullify.Option.None;
 import static com.itquasar.unhellify.unnullify.Option.Some;
+import com.itquasar.unhellify.unnullify.exceptions.NoValueError;
+import com.itquasar.unhellify.unnullify.exceptions.NullValueError;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -11,6 +11,7 @@ import org.testng.annotations.Test;
  *
  * @author Guilherme I F L Weizenmann
  * @since 2015-05-18
+ *
  */
 public class OptionNGTest {
 
@@ -57,8 +58,7 @@ public class OptionNGTest {
     }
 
     /**
-     * Test of constructor for Some, that must throw
-     * NullValueError for.
+     * Test of constructor for Some, that must throw NullValueError for.
      */
     @Test(expectedExceptions = {NullValueError.class})
     public void testSomeError() {
