@@ -17,7 +17,7 @@ package com.itquasar.unhellify.unnullify;
  * @param <T> Type to be used in values.
  *
  * @author Guilherme I F L Weizenmann
- * @since 2015-05-18
+ * @since 0.1.0
  */
 public abstract class Option<T> {
 

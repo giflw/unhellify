@@ -4,7 +4,7 @@ package com.itquasar.unhellify.unnullify.exceptions;
  * Indicates that a given value is null be shouldn't.
  *
  * @author Guilherme I F L Weizenmann
- * @since 2015-05-18
+ * @since 0.1.0
  *
  */
 public class NullValueError extends Error {

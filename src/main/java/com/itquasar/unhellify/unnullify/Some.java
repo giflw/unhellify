@@ -14,7 +14,7 @@ import java.util.Objects;
  * @param <T> Type to be used in values.
  *
  * @author Guilherme I F L Weizenmann
- * @since 2015-05-18
+ * @since 0.1.0
  */
 final class Some<T> extends Option<T> {
 

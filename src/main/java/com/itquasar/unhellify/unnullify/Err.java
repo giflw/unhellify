@@ -10,7 +10,7 @@ import java.util.Objects;
  * @param <E> Type to be used in errors.
  *
  * @author Guilherme I F L Weizenmann
- * @since 2015-05-18
+ * @since 0.1.0
  *
  */
 public class Err<T, E> extends Result<T, E> {

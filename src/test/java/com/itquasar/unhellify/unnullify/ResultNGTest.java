@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 /**
  *
  * @author Guilherme I F L Weizenmann
- * @since 2015-05-18
+ * @since 0.1.0
  *
  */
 public class ResultNGTest {

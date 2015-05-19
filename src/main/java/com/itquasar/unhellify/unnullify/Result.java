@@ -18,7 +18,7 @@ package com.itquasar.unhellify.unnullify;
  * @param <E> Type to be used in errors.
  *
  * @author Guilherme I F L Weizenmann
- * @since 2015-05-18
+ * @since 0.1.0
  *
  */
 public abstract class Result<T, E> extends Option<T> {
